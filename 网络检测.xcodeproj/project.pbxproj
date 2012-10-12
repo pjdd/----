@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3DAA1361613FE8A0025E3E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DAA1351613FE8A0025E3E3 /* UIKit.framework */; };
+		C3DAA1381613FE8A0025E3E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DAA1371613FE8A0025E3E3 /* Foundation.framework */; };
+		C3DAA13A1613FE8A0025E3E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DAA1391613FE8A0025E3E3 /* CoreGraphics.framework */; };
+		C3DAA1401613FE8A0025E3E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3DAA13E1613FE8A0025E3E3 /* InfoPlist.strings */; };
+		C3DAA1421613FE8A0025E3E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DAA1411613FE8A0025E3E3 /* main.m */; };
+		C3DAA1461613FE8A0025E3E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DAA1451613FE8A0025E3E3 /* AppDelegate.m */; };
+		C3DAA1481613FE8A0025E3E3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DAA1471613FE8A0025E3E3 /* Default.png */; };
+		C3DAA14A1613FE8A0025E3E3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DAA1491613FE8A0025E3E3 /* Default@2x.png */; };
+		C3DAA14C1613FE8A0025E3E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DAA14B1613FE8A0025E3E3 /* Default-568h@2x.png */; };
+		C3DAA1541613FEA50025E3E3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DAA1531613FEA50025E3E3 /* Reachability.m */; };
+		C3DAA1561613FEB50025E3E3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DAA1551613FEB50025E3E3 /* MainWindow.xib */; };
+		C3DAA15A1613FEDC0025E3E3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DAA1581613FEDC0025E3E3 /* RootViewController.m */; };
+		C3DAA15B1613FEDC0025E3E3 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DAA1591613FEDC0025E3E3 /* RootViewController.xib */; };
+		C3DAA15D1613FFCE0025E3E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DAA15C1613FFCE0025E3E3 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3DAA1311613FE8A0025E3E3 /* 网络检测.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网络检测.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DAA1351613FE8A0025E3E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3DAA1371613FE8A0025E3E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3DAA1391613FE8A0025E3E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3DAA13D1613FE8A0025E3E3 /* 网络检测-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "网络检测-Info.plist"; sourceTree = "<group>"; };
+		C3DAA13F1613FE8A0025E3E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3DAA1411613FE8A0025E3E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3DAA1431613FE8A0025E3E3 /* 网络检测-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "网络检测-Prefix.pch"; sourceTree = "<group>"; };
+		C3DAA1441613FE8A0025E3E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3DAA1451613FE8A0025E3E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3DAA1471613FE8A0025E3E3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C3DAA1491613FE8A0025E3E3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C3DAA14B1613FE8A0025E3E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C3DAA1521613FEA50025E3E3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C3DAA1531613FEA50025E3E3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C3DAA1551613FEB50025E3E3 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		C3DAA1571613FEDC0025E3E3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C3DAA1581613FEDC0025E3E3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C3DAA1591613FEDC0025E3E3 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		C3DAA15C1613FFCE0025E3E3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3DAA12E1613FE8A0025E3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DAA15D1613FFCE0025E3E3 /* SystemConfiguration.framework in Frameworks */,
+				C3DAA1361613FE8A0025E3E3 /* UIKit.framework in Frameworks */,
+				C3DAA1381613FE8A0025E3E3 /* Foundation.framework in Frameworks */,
+				C3DAA13A1613FE8A0025E3E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3DAA1261613FE8A0025E3E3 = {
+			isa = PBXGroup;
+			children = (
+				C3DAA13B1613FE8A0025E3E3 /* 网络检测 */,
+				C3DAA1341613FE8A0025E3E3 /* Frameworks */,
+				C3DAA1321613FE8A0025E3E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3DAA1321613FE8A0025E3E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3DAA1311613FE8A0025E3E3 /* 网络检测.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3DAA1341613FE8A0025E3E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3DAA15C1613FFCE0025E3E3 /* SystemConfiguration.framework */,
+				C3DAA1351613FE8A0025E3E3 /* UIKit.framework */,
+				C3DAA1371613FE8A0025E3E3 /* Foundation.framework */,
+				C3DAA1391613FE8A0025E3E3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3DAA13B1613FE8A0025E3E3 /* 网络检测 */ = {
+			isa = PBXGroup;
+			children = (
+				C3DAA1441613FE8A0025E3E3 /* AppDelegate.h */,
+				C3DAA1451613FE8A0025E3E3 /* AppDelegate.m */,
+				C3DAA1551613FEB50025E3E3 /* MainWindow.xib */,
+				C3DAA1521613FEA50025E3E3 /* Reachability.h */,
+				C3DAA1531613FEA50025E3E3 /* Reachability.m */,
+				C3DAA1571613FEDC0025E3E3 /* RootViewController.h */,
+				C3DAA1581613FEDC0025E3E3 /* RootViewController.m */,
+				C3DAA1591613FEDC0025E3E3 /* RootViewController.xib */,
+				C3DAA13C1613FE8A0025E3E3 /* Supporting Files */,
+			);
+			path = "网络检测";
+			sourceTree = "<group>";
+		};
+		C3DAA13C1613FE8A0025E3E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3DAA13D1613FE8A0025E3E3 /* 网络检测-Info.plist */,
+				C3DAA13E1613FE8A0025E3E3 /* InfoPlist.strings */,
+				C3DAA1411613FE8A0025E3E3 /* main.m */,
+				C3DAA1431613FE8A0025E3E3 /* 网络检测-Prefix.pch */,
+				C3DAA1471613FE8A0025E3E3 /* Default.png */,
+				C3DAA1491613FE8A0025E3E3 /* Default@2x.png */,
+				C3DAA14B1613FE8A0025E3E3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3DAA1301613FE8A0025E3E3 /* 网络检测 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DAA14F1613FE8A0025E3E3 /* Build configuration list for PBXNativeTarget "网络检测" */;
+			buildPhases = (
+				C3DAA12D1613FE8A0025E3E3 /* Sources */,
+				C3DAA12E1613FE8A0025E3E3 /* Frameworks */,
+				C3DAA12F1613FE8A0025E3E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网络检测";
+			productName = "网络检测";
+			productReference = C3DAA1311613FE8A0025E3E3 /* 网络检测.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3DAA1281613FE8A0025E3E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = administrator;
+			};
+			buildConfigurationList = C3DAA12B1613FE8A0025E3E3 /* Build configuration list for PBXProject "网络检测" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3DAA1261613FE8A0025E3E3;
+			productRefGroup = C3DAA1321613FE8A0025E3E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3DAA1301613FE8A0025E3E3 /* 网络检测 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3DAA12F1613FE8A0025E3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DAA1401613FE8A0025E3E3 /* InfoPlist.strings in Resources */,
+				C3DAA1481613FE8A0025E3E3 /* Default.png in Resources */,
+				C3DAA14A1613FE8A0025E3E3 /* Default@2x.png in Resources */,
+				C3DAA14C1613FE8A0025E3E3 /* Default-568h@2x.png in Resources */,
+				C3DAA1561613FEB50025E3E3 /* MainWindow.xib in Resources */,
+				C3DAA15B1613FEDC0025E3E3 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3DAA12D1613FE8A0025E3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DAA1421613FE8A0025E3E3 /* main.m in Sources */,
+				C3DAA1461613FE8A0025E3E3 /* AppDelegate.m in Sources */,
+				C3DAA1541613FEA50025E3E3 /* Reachability.m in Sources */,
+				C3DAA15A1613FEDC0025E3E3 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3DAA13E1613FE8A0025E3E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3DAA13F1613FE8A0025E3E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3DAA14D1613FE8A0025E3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3DAA14E1613FE8A0025E3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3DAA1501613FE8A0025E3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "网络检测/网络检测-Prefix.pch";
+				INFOPLIST_FILE = "网络检测/网络检测-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3DAA1511613FE8A0025E3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "网络检测/网络检测-Prefix.pch";
+				INFOPLIST_FILE = "网络检测/网络检测-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3DAA12B1613FE8A0025E3E3 /* Build configuration list for PBXProject "网络检测" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DAA14D1613FE8A0025E3E3 /* Debug */,
+				C3DAA14E1613FE8A0025E3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DAA14F1613FE8A0025E3E3 /* Build configuration list for PBXNativeTarget "网络检测" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DAA1501613FE8A0025E3E3 /* Debug */,
+				C3DAA1511613FE8A0025E3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3DAA1281613FE8A0025E3E3 /* Project object */;
+}
